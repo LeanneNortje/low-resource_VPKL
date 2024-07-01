@@ -1,0 +1,16 @@
+{
+    "out_dir": "data/", 
+
+    "audio_config": {
+        "audio_type": "melspectrogram",
+        "preemph_coef": 0.97,
+        "sample_rate": 16000,
+        "window_size": 0.025,
+        "window_stride": 0.01,
+        "window_type": "hamming",
+        "num_mel_bins": 40,
+        "target_length": 2014,
+        "fmin": 20
+    }
+
+}
